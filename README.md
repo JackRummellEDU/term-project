@@ -7,7 +7,7 @@ the project plan in the doc folder.
 <p>
 <br>
 doc: <br>
-	This folder contains the primary artifacts for the 
+This folder contains the primary artifacts for the 
 project such as the project plan, requirements
 specification, etc.
 
@@ -20,5 +20,10 @@ This folder contains header files for the project.
 test: <br>
 This folder contains test cases and other artifacts
 relating to testing the software.
+
+log: <br>
+This folder contains meeting logs, task logs, and any
+other logs required for team member accountability.
 </p>
+
 	
