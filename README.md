@@ -21,7 +21,7 @@ test: <br>
 This folder contains test cases and other artifacts
 relating to testing the software.
 
-log: <br>
+team-logs: <br>
 This folder contains meeting logs, task logs, and any
 other logs required for team member accountability.
 </p>
