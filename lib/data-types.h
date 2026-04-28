@@ -12,7 +12,7 @@
 
 
 // Token Types will be defined as an enum.
-enum Operations { NUMBER, 
+enum Operations { NUMBER,
      ADDOP,
      SUBOP,
      MULOP,
@@ -21,12 +21,12 @@ enum Operations { NUMBER,
      UNARYOP,
      L_PAREN,
      R_PAREN
-};
+} typedef Operations;
 
 
 // Struct can contained within header file as no methods are required.
 struct Token{
-    enum Operations type;
+    Operations type;
 
     // Numbers are considered strings until checked later in parsing.
     std::string value;
@@ -36,13 +36,13 @@ struct Token{
 
 class Node{
     private:
-	
+
 	Token value;
 
 	// children split into two distinct children.
     	Node *leftChild;
 	Node *rightChild;
-    
+
     public:
 	Node(Token value);
 	Node(Token value, Node *leftChild);
@@ -64,7 +64,6 @@ class AbstractSyntaxTree{
 
     private:
 	Node *root;
-    
+
 
 };
-
