@@ -1,7 +1,7 @@
 /*
     Authors: Dylan Richardson
     Description: Header file declaring important structs/classes for project.
-    VERSION: v0.1
+    VERSION: v0.2
 
     REMINDER: This is an early development build. This may change, as the functionality
     or requirements change to better suit the development of the parser and lexer.
@@ -19,6 +19,7 @@ enum Operations { NUMBER,
      DIVOP,
      EXPOP,
      UNARYOP,
+     MODOP,
      L_PAREN,
      R_PAREN
 } typedef Operations;
